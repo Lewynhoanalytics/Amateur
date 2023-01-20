@@ -1,3 +1,4 @@
+#installing packages
 install.packages("tidyverse")
 library(tidyverse)
 library("RColorBrewer")
@@ -5,6 +6,7 @@ display.brewer.all()
 percent(50)
 library(wesanderson)
 library(corrplot)
+#structure of the data
 str(mtcars)
 head(mtcars)
 m<-cor(mtcars)
